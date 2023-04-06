@@ -1,0 +1,27 @@
+[0603/201127.162:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.164:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.164:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0603/201127.170:ERROR:exception_snapshot_win.cc(98)] thread ID 9268 not found in process
+[0603/201127.175:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.184:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.184:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.184:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0603/201127.185:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0603/201127.185:ERROR:exception_snapshot_win.cc(98)] thread ID 14748 not found in process
+[0603/201237.846:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0603/201237.847:ERROR:exception_snapshot_win.cc(98)] thread ID 14856 not found in process
+[0603/201237.858:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0603/201237.858:ERROR:exception_snapshot_win.cc(98)] thread ID 10768 not found in process
+[0604/005936.041:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0604/005936.060:ERROR:exception_snapshot_win.cc(98)] thread ID 13864 not found in process
+[0604/005936.217:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0604/005936.217:ERROR:exception_snapshot_win.cc(98)] thread ID 14820 not found in process
+
+
+Requesting https://boardgamegeek.com/boardgame/125493/drunkquest/stats
+Traceback (most recent call last):
+  File "API_w_Driver_scraping.py", line 176, in <module>
+    com_age = get_results(age_poll)
+  File "API_w_Driver_scraping.py", line 31, in get_results
+    val = int(result.xpath('./@value').extract()[0])
+ValueError: invalid literal for int() with base 10: '21 and up'
